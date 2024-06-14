@@ -37,7 +37,7 @@ class FCRAUnpack:
                 file_extension = file_data[:4].decode('utf-8').strip().lower()
                 self.create_file(file_name, file_data, file_extension)
 
-            print(f"Log: Finished a new folder was created called {folder_name}" )
+            print(f"Log: Finished a new folder was created called {folder_name}." )
 
 
     def get_file_structures(self, file_count, file):
